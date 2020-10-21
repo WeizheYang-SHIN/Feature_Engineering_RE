@@ -1,0 +1,2058 @@
+model_checkpoint_path: "model.ckpt-1000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.7407    0.1149    0.1990       174
+         ART     0.0000    0.0000    0.0000        78
+     GEN-AFF     0.0000    0.0000    0.0000       215
+     ORG-AFF     1.0000    0.0047    0.0094       211
+  PART-WHOLE     0.6298    0.4851    0.5481       235
+     PER-SOC     0.0000    0.0000    0.0000        72
+
+   micro avg     0.6459    0.1371    0.2261       985
+   macro avg     0.3951    0.1008    0.1261       985
+weighted avg     0.4953    0.1371    0.1679       985
+model_checkpoint_path: "model.ckpt-2000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8036    0.7759    0.7895       174
+         ART     0.0000    0.0000    0.0000        78
+     GEN-AFF     0.8256    0.6605    0.7339       215
+     ORG-AFF     0.9785    0.8626    0.9169       211
+  PART-WHOLE     0.7811    0.8809    0.8280       235
+     PER-SOC     0.9452    0.9583    0.9517        72
+
+   micro avg     0.8507    0.7462    0.7950       985
+   macro avg     0.7223    0.6897    0.7033       985
+weighted avg     0.7872    0.7462    0.7632       985
+model_checkpoint_path: "model.ckpt-4000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8021    0.8621    0.8310       174
+         ART     1.0000    0.6282    0.7717        78
+     GEN-AFF     0.9202    0.6977    0.7937       215
+     ORG-AFF     0.9948    0.9052    0.9479       211
+  PART-WHOLE     0.8681    0.8681    0.8681       235
+     PER-SOC     0.9861    0.9861    0.9861        72
+
+   micro avg     0.9076    0.8274    0.8656       985
+   macro avg     0.9286    0.8246    0.8664       985
+weighted avg     0.9140    0.8274    0.8634       985
+model_checkpoint_path: "model.ckpt-5000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.7989    0.8678    0.8320       174
+         ART     0.9583    0.8846    0.9200        78
+     GEN-AFF     0.8654    0.8372    0.8511       215
+     ORG-AFF     1.0000    0.8863    0.9397       211
+  PART-WHOLE     0.8982    0.8638    0.8807       235
+     PER-SOC     0.9859    0.9722    0.9790        72
+
+   micro avg     0.9024    0.8731    0.8875       985
+   macro avg     0.9178    0.8853    0.9004       985
+weighted avg     0.9065    0.8731    0.8886       985
+model_checkpoint_path: "model.ckpt-6000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9706    0.5690    0.7174       174
+         ART     0.9024    0.9487    0.9250        78
+     GEN-AFF     0.9175    0.8791    0.8979       215
+     ORG-AFF     0.8608    0.9668    0.9107       211
+  PART-WHOLE     0.8674    0.9745    0.9178       235
+     PER-SOC     0.9114    1.0000    0.9536        72
+
+   micro avg     0.8938    0.8802    0.8870       985
+   macro avg     0.9050    0.8897    0.8871       985
+weighted avg     0.9011    0.8802    0.8797       985
+model_checkpoint_path: "model.ckpt-7000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8693    0.8793    0.8743       174
+         ART     0.9565    0.8462    0.8980        78
+     GEN-AFF     0.9529    0.8465    0.8966       215
+     ORG-AFF     0.9804    0.9479    0.9639       211
+  PART-WHOLE     0.8726    0.9617    0.9150       235
+     PER-SOC     0.9857    0.9583    0.9718        72
+
+   micro avg     0.9247    0.9096    0.9171       985
+   macro avg     0.9362    0.9066    0.9199       985
+weighted avg     0.9275    0.9096    0.9170       985
+model_checkpoint_path: "model.ckpt-8000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8970    0.8506    0.8732       174
+         ART     0.9718    0.8846    0.9262        78
+     GEN-AFF     0.9356    0.8791    0.9065       215
+     ORG-AFF     0.9805    0.9526    0.9663       211
+  PART-WHOLE     0.8642    0.9745    0.9160       235
+     PER-SOC     1.0000    0.9861    0.9930        72
+
+   micro avg     0.9265    0.9208    0.9236       985
+   macro avg     0.9415    0.9212    0.9302       985
+weighted avg     0.9289    0.9208    0.9236       985
+model_checkpoint_path: "model.ckpt-9000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8736    0.9138    0.8933       174
+         ART     1.0000    0.8333    0.9091        78
+     GEN-AFF     0.9534    0.8558    0.9020       215
+     ORG-AFF     0.9668    0.9668    0.9668       211
+  PART-WHOLE     0.8863    0.9617    0.9224       235
+     PER-SOC     0.9730    1.0000    0.9863        72
+
+   micro avg     0.9286    0.9239    0.9262       985
+   macro avg     0.9422    0.9219    0.9300       985
+weighted avg     0.9313    0.9239    0.9259       985
+model_checkpoint_path: "model.ckpt-11000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8729    0.9080    0.8901       174
+         ART     0.9730    0.9231    0.9474        78
+     GEN-AFF     0.9505    0.8930    0.9209       215
+     ORG-AFF     0.9855    0.9668    0.9761       211
+  PART-WHOLE     0.9109    0.9574    0.9336       235
+     PER-SOC     0.9474    1.0000    0.9730        72
+
+   micro avg     0.9352    0.9371    0.9361       985
+   macro avg     0.9400    0.9414    0.9402       985
+weighted avg     0.9364    0.9371    0.9362       985
+model_checkpoint_path: "model.ckpt-12000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8908    0.8908    0.8908       174
+         ART     0.8621    0.9615    0.9091        78
+     GEN-AFF     0.9545    0.8791    0.9153       215
+     ORG-AFF     0.9495    0.9810    0.9650       211
+  PART-WHOLE     0.9520    0.9277    0.9397       235
+     PER-SOC     0.9600    1.0000    0.9796        72
+
+   micro avg     0.9337    0.9299    0.9318       985
+   macro avg     0.9282    0.9400    0.9332       985
+weighted avg     0.9347    0.9299    0.9316       985
+model_checkpoint_path: "model.ckpt-13000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8404    0.9080    0.8729       174
+         ART     0.9259    0.9615    0.9434        78
+     GEN-AFF     0.9634    0.8558    0.9064       215
+     ORG-AFF     0.9539    0.9810    0.9673       211
+  PART-WHOLE     0.9386    0.9106    0.9244       235
+     PER-SOC     0.9861    0.9861    0.9861        72
+
+   micro avg     0.9304    0.9228    0.9266       985
+   macro avg     0.9347    0.9339    0.9334       985
+weighted avg     0.9324    0.9228    0.9266       985
+model_checkpoint_path: "model.ckpt-14000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9118    0.8908    0.9012       174
+         ART     0.9383    0.9744    0.9560        78
+     GEN-AFF     0.9254    0.8651    0.8942       215
+     ORG-AFF     0.9498    0.9858    0.9674       211
+  PART-WHOLE     0.9342    0.9660    0.9498       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9371    0.9381    0.9376       985
+   macro avg     0.9432    0.9470    0.9448       985
+weighted avg     0.9368    0.9381    0.9370       985
+model_checkpoint_path: "model.ckpt-15000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8490    0.9368    0.8907       174
+         ART     0.9722    0.8974    0.9333        78
+     GEN-AFF     0.9592    0.8744    0.9148       215
+     ORG-AFF     0.9764    0.9810    0.9787       211
+  PART-WHOLE     0.9447    0.9447    0.9447       235
+     PER-SOC     0.9730    1.0000    0.9863        72
+
+   micro avg     0.9399    0.9360    0.9379       985
+   macro avg     0.9457    0.9391    0.9414       985
+weighted avg     0.9420    0.9360    0.9381       985
+model_checkpoint_path: "model.ckpt-16000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8927    0.9080    0.9003       174
+         ART     0.9730    0.9231    0.9474        78
+     GEN-AFF     0.9500    0.8837    0.9157       215
+     ORG-AFF     0.9321    0.9763    0.9537       211
+  PART-WHOLE     0.9404    0.9404    0.9404       235
+     PER-SOC     0.9730    1.0000    0.9863        72
+
+   micro avg     0.9368    0.9330    0.9349       985
+   macro avg     0.9435    0.9386    0.9406       985
+weighted avg     0.9373    0.9330    0.9347       985
+model_checkpoint_path: "model.ckpt-17000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8088    0.9483    0.8730       174
+         ART     0.9600    0.9231    0.9412        78
+     GEN-AFF     0.9596    0.8837    0.9201       215
+     ORG-AFF     0.9716    0.9716    0.9716       211
+  PART-WHOLE     0.9352    0.8596    0.8958       235
+     PER-SOC     0.9730    1.0000    0.9863        72
+
+   micro avg     0.9264    0.9198    0.9231       985
+   macro avg     0.9347    0.9310    0.9313       985
+weighted avg     0.9307    0.9198    0.9235       985
+model_checkpoint_path: "model.ckpt-19000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8586    0.9425    0.8986       174
+         ART     0.9726    0.9103    0.9404        78
+     GEN-AFF     0.9554    0.8977    0.9257       215
+     ORG-AFF     0.9714    0.9668    0.9691       211
+  PART-WHOLE     0.9610    0.9447    0.9528       235
+     PER-SOC     0.9861    0.9861    0.9861        72
+
+   micro avg     0.9448    0.9391    0.9420       985
+   macro avg     0.9509    0.9413    0.9455       985
+weighted avg     0.9467    0.9391    0.9423       985
+model_checkpoint_path: "model.ckpt-20000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9197    0.7241    0.8103       174
+         ART     0.6696    0.9872    0.7979        78
+     GEN-AFF     0.9045    0.9256    0.9149       215
+     ORG-AFF     0.9949    0.9289    0.9608       211
+  PART-WHOLE     0.9492    0.9532    0.9512       235
+     PER-SOC     0.9600    1.0000    0.9796        72
+
+   micro avg     0.9122    0.9076    0.9099       985
+   macro avg     0.8996    0.9198    0.9025       985
+weighted avg     0.9227    0.9076    0.9104       985
+model_checkpoint_path: "model.ckpt-21000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9029    0.9080    0.9054       174
+         ART     0.9474    0.9231    0.9351        78
+     GEN-AFF     0.9340    0.9209    0.9274       215
+     ORG-AFF     0.9808    0.9668    0.9737       211
+  PART-WHOLE     0.9449    0.9489    0.9469       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9459    0.9411    0.9435       985
+   macro avg     0.9494    0.9446    0.9469       985
+weighted avg     0.9460    0.9411    0.9435       985
+model_checkpoint_path: "model.ckpt-22000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8710    0.9310    0.9000       174
+         ART     0.9855    0.8718    0.9252        78
+     GEN-AFF     0.9271    0.8279    0.8747       215
+     ORG-AFF     0.9119    0.9810    0.9452       211
+  PART-WHOLE     0.9310    0.9191    0.9251       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9233    0.9168    0.9200       985
+   macro avg     0.9377    0.9218    0.9284       985
+weighted avg     0.9248    0.9168    0.9194       985
+model_checkpoint_path: "model.ckpt-23000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9029    0.9080    0.9054       174
+         ART     0.9583    0.8846    0.9200        78
+     GEN-AFF     0.9463    0.9023    0.9238       215
+     ORG-AFF     0.9624    0.9716    0.9670       211
+  PART-WHOLE     0.9194    0.9702    0.9441       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9401    0.9401    0.9401       985
+   macro avg     0.9482    0.9395    0.9434       985
+weighted avg     0.9405    0.9401    0.9399       985
+model_checkpoint_path: "model.ckpt-24000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8549    0.9483    0.8992       174
+         ART     1.0000    0.9359    0.9669        78
+     GEN-AFF     0.9028    0.9070    0.9049       215
+     ORG-AFF     0.9761    0.9668    0.9714       211
+  PART-WHOLE     0.9537    0.8766    0.9135       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9346    0.9289    0.9318       985
+   macro avg     0.9479    0.9391    0.9426       985
+weighted avg     0.9370    0.9289    0.9321       985
+model_checkpoint_path: "model.ckpt-25000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9176    0.8966    0.9070       174
+         ART     0.9605    0.9359    0.9481        78
+     GEN-AFF     0.9369    0.8977    0.9169       215
+     ORG-AFF     0.9665    0.9573    0.9619       211
+  PART-WHOLE     0.9228    0.9660    0.9439       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9428    0.9371    0.9399       985
+   macro avg     0.9507    0.9422    0.9463       985
+weighted avg     0.9430    0.9371    0.9398       985
+model_checkpoint_path: "model.ckpt-27000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9241    0.8391    0.8795       174
+         ART     0.9012    0.9359    0.9182        78
+     GEN-AFF     0.9037    0.9163    0.9099       215
+     ORG-AFF     0.9855    0.9668    0.9761       211
+  PART-WHOLE     0.9303    0.9660    0.9478       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9378    0.9330    0.9354       985
+   macro avg     0.9408    0.9373    0.9386       985
+weighted avg     0.9380    0.9330    0.9350       985
+model_checkpoint_path: "model.ckpt-28000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9379    0.7816    0.8527       174
+         ART     0.8810    0.9487    0.9136        78
+     GEN-AFF     0.8783    0.9395    0.9079       215
+     ORG-AFF     0.9856    0.9716    0.9785       211
+  PART-WHOLE     0.9289    0.9447    0.9367       235
+     PER-SOC     1.0000    0.9861    0.9930        72
+
+   micro avg     0.9314    0.9239    0.9276       985
+   macro avg     0.9353    0.9287    0.9304       985
+weighted avg     0.9330    0.9239    0.9268       985
+model_checkpoint_path: "model.ckpt-29000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8994    0.9253    0.9122       174
+         ART     0.9589    0.8974    0.9272        78
+     GEN-AFF     0.9610    0.9163    0.9381       215
+     ORG-AFF     0.9902    0.9621    0.9760       211
+  PART-WHOLE     0.9194    0.9702    0.9441       235
+     PER-SOC     1.0000    0.9861    0.9930        72
+
+   micro avg     0.9480    0.9442    0.9461       985
+   macro avg     0.9548    0.9429    0.9484       985
+weighted avg     0.9491    0.9442    0.9462       985
+model_checkpoint_path: "model.ckpt-30000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8930    0.9598    0.9252       174
+         ART     1.0000    0.9103    0.9530        78
+     GEN-AFF     0.9648    0.8930    0.9275       215
+     ORG-AFF     0.9671    0.9763    0.9717       211
+  PART-WHOLE     0.9485    0.9404    0.9444       235
+     PER-SOC     1.0000    0.9861    0.9930        72
+
+   micro avg     0.9528    0.9421    0.9474       985
+   macro avg     0.9623    0.9443    0.9525       985
+weighted avg     0.9541    0.9421    0.9474       985
+model_checkpoint_path: "model.ckpt-31000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9205    0.9310    0.9257       174
+         ART     0.9600    0.9231    0.9412        78
+     GEN-AFF     0.9317    0.8884    0.9095       215
+     ORG-AFF     0.9671    0.9763    0.9717       211
+  PART-WHOLE     0.9298    0.9574    0.9434       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9440    0.9421    0.9431       985
+   macro avg     0.9515    0.9460    0.9486       985
+weighted avg     0.9441    0.9421    0.9429       985
+model_checkpoint_path: "model.ckpt-32000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9281    0.8908    0.9091       174
+         ART     0.9136    0.9487    0.9308        78
+     GEN-AFF     0.9453    0.8837    0.9135       215
+     ORG-AFF     0.9406    0.9763    0.9581       211
+  PART-WHOLE     0.9339    0.9617    0.9476       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9399    0.9371    0.9385       985
+   macro avg     0.9436    0.9435    0.9432       985
+weighted avg     0.9400    0.9371    0.9381       985
+model_checkpoint_path: "model.ckpt-33000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8804    0.9310    0.9050       174
+         ART     0.9718    0.8846    0.9262        78
+     GEN-AFF     0.9324    0.8977    0.9147       215
+     ORG-AFF     0.9810    0.9763    0.9786       211
+  PART-WHOLE     0.9367    0.9447    0.9407       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9409    0.9381    0.9395       985
+   macro avg     0.9481    0.9391    0.9430       985
+weighted avg     0.9417    0.9381    0.9395       985
+model_checkpoint_path: "model.ckpt-35000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9148    0.9253    0.9200       174
+         ART     0.9474    0.9231    0.9351        78
+     GEN-AFF     0.9604    0.9023    0.9305       215
+     ORG-AFF     0.9762    0.9716    0.9739       211
+  PART-WHOLE     0.9234    0.9745    0.9482       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9482    0.9472    0.9477       985
+   macro avg     0.9537    0.9495    0.9513       985
+weighted avg     0.9488    0.9472    0.9476       985
+model_checkpoint_path: "model.ckpt-36000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9222    0.9540    0.9379       174
+         ART     1.0000    0.8846    0.9388        78
+     GEN-AFF     0.9706    0.9209    0.9451       215
+     ORG-AFF     0.9763    0.9763    0.9763       211
+  PART-WHOLE     0.9306    0.9702    0.9500       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9572    0.9533    0.9552       985
+   macro avg     0.9666    0.9510    0.9580       985
+weighted avg     0.9582    0.9533    0.9552       985
+model_checkpoint_path: "model.ckpt-37000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8557    0.9540    0.9022       174
+         ART     1.0000    0.8205    0.9014        78
+     GEN-AFF     0.9437    0.9349    0.9393       215
+     ORG-AFF     0.9901    0.9526    0.9710       211
+  PART-WHOLE     0.9573    0.9532    0.9552       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9469    0.9421    0.9445       985
+   macro avg     0.9578    0.9359    0.9448       985
+weighted avg     0.9499    0.9421    0.9448       985
+model_checkpoint_path: "model.ckpt-38000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9006    0.9368    0.9183       174
+         ART     0.9481    0.9359    0.9419        78
+     GEN-AFF     0.9417    0.9023    0.9216       215
+     ORG-AFF     0.9581    0.9763    0.9671       211
+  PART-WHOLE     0.9427    0.9106    0.9264       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9427    0.9360    0.9394       985
+   macro avg     0.9485    0.9437    0.9459       985
+weighted avg     0.9430    0.9360    0.9393       985
+model_checkpoint_path: "model.ckpt-39000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9000    0.9310    0.9153       174
+         ART     0.9474    0.9231    0.9351        78
+     GEN-AFF     0.9387    0.9256    0.9321       215
+     ORG-AFF     0.9761    0.9668    0.9714       211
+  PART-WHOLE     0.9612    0.9489    0.9550       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9491    0.9462    0.9476       985
+   macro avg     0.9516    0.9492    0.9503       985
+weighted avg     0.9494    0.9462    0.9477       985
+model_checkpoint_path: "model.ckpt-40000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9346    0.8218    0.8746       174
+         ART     0.8488    0.9359    0.8902        78
+     GEN-AFF     0.9206    0.9163    0.9184       215
+     ORG-AFF     0.9810    0.9763    0.9786       211
+  PART-WHOLE     0.9268    0.9702    0.9480       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9368    0.9330    0.9349       985
+   macro avg     0.9353    0.9368    0.9350       985
+weighted avg     0.9376    0.9330    0.9344       985
+model_checkpoint_path: "model.ckpt-41000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8840    0.9195    0.9014       174
+         ART     0.9241    0.9359    0.9299        78
+     GEN-AFF     0.9372    0.9023    0.9194       215
+     ORG-AFF     0.9809    0.9716    0.9762       211
+  PART-WHOLE     0.9481    0.9319    0.9399       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9418    0.9371    0.9394       985
+   macro avg     0.9434    0.9435    0.9433       985
+weighted avg     0.9423    0.9371    0.9395       985
+model_checkpoint_path: "model.ckpt-43000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8859    0.9368    0.9106       174
+         ART     0.9481    0.9359    0.9419        78
+     GEN-AFF     0.9650    0.8977    0.9301       215
+     ORG-AFF     0.9717    0.9763    0.9740       211
+  PART-WHOLE     0.9489    0.9489    0.9489       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9480    0.9442    0.9461       985
+   macro avg     0.9510    0.9493    0.9498       985
+weighted avg     0.9488    0.9442    0.9461       985
+model_checkpoint_path: "model.ckpt-44000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8384    0.9540    0.8925       174
+         ART     0.9600    0.9231    0.9412        78
+     GEN-AFF     0.9738    0.8651    0.9163       215
+     ORG-AFF     0.9537    0.9763    0.9649       211
+  PART-WHOLE     0.9476    0.9234    0.9353       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9368    0.9330    0.9349       985
+   macro avg     0.9456    0.9403    0.9417       985
+weighted avg     0.9401    0.9330    0.9351       985
+model_checkpoint_path: "model.ckpt-45000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9050    0.9310    0.9178       174
+         ART     0.9494    0.9615    0.9554        78
+     GEN-AFF     0.9515    0.9116    0.9311       215
+     ORG-AFF     0.9807    0.9621    0.9713       211
+  PART-WHOLE     0.9458    0.9660    0.9558       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9512    0.9492    0.9502       985
+   macro avg     0.9554    0.9554    0.9552       985
+weighted avg     0.9516    0.9492    0.9502       985
+model_checkpoint_path: "model.ckpt-46000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8956    0.9368    0.9157       174
+         ART     0.9459    0.8974    0.9211        78
+     GEN-AFF     0.9429    0.9209    0.9318       215
+     ORG-AFF     0.9951    0.9668    0.9808       211
+  PART-WHOLE     0.9412    0.9532    0.9471       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9490    0.9452    0.9471       985
+   macro avg     0.9535    0.9459    0.9494       985
+weighted avg     0.9497    0.9452    0.9472       985
+model_checkpoint_path: "model.ckpt-47000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8859    0.9368    0.9106       174
+         ART     0.9474    0.9231    0.9351        78
+     GEN-AFF     0.9522    0.9256    0.9387       215
+     ORG-AFF     0.9903    0.9716    0.9809       211
+  PART-WHOLE     0.9569    0.9447    0.9507       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9520    0.9472    0.9496       985
+   macro avg     0.9554    0.9503    0.9527       985
+weighted avg     0.9529    0.9472    0.9498       985
+model_checkpoint_path: "model.ckpt-48000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8619    0.8966    0.8789       174
+         ART     0.9125    0.9359    0.9241        78
+     GEN-AFF     0.9381    0.9163    0.9271       215
+     ORG-AFF     0.9856    0.9763    0.9810       211
+  PART-WHOLE     0.9351    0.9191    0.9270       235
+     PER-SOC     1.0000    0.9861    0.9930        72
+
+   micro avg     0.9358    0.9330    0.9344       985
+   macro avg     0.9389    0.9384    0.9385       985
+weighted avg     0.9366    0.9330    0.9347       985
+model_checkpoint_path: "model.ckpt-49000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8852    0.9310    0.9076       174
+         ART     0.9481    0.9359    0.9419        78
+     GEN-AFF     0.9545    0.8791    0.9153       215
+     ORG-AFF     0.9624    0.9716    0.9670       211
+  PART-WHOLE     0.9367    0.9447    0.9407       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9418    0.9371    0.9394       985
+   macro avg     0.9478    0.9437    0.9454       985
+weighted avg     0.9425    0.9371    0.9393       985
+model_checkpoint_path: "model.ckpt-51000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9040    0.9195    0.9117       174
+         ART     0.9605    0.9359    0.9481        78
+     GEN-AFF     0.9320    0.8930    0.9121       215
+     ORG-AFF     0.9806    0.9573    0.9688       211
+  PART-WHOLE     0.9298    0.9574    0.9434       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9429    0.9381    0.9405       985
+   macro avg     0.9489    0.9439    0.9462       985
+weighted avg     0.9432    0.9381    0.9404       985
+model_checkpoint_path: "model.ckpt-52000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8895    0.9253    0.9070       174
+         ART     0.9367    0.9487    0.9427        78
+     GEN-AFF     0.9275    0.8930    0.9100       215
+     ORG-AFF     0.9805    0.9526    0.9663       211
+  PART-WHOLE     0.9367    0.9447    0.9407       235
+     PER-SOC     0.9474    1.0000    0.9730        72
+
+   micro avg     0.9360    0.9360    0.9360       985
+   macro avg     0.9364    0.9441    0.9399       985
+weighted avg     0.9365    0.9360    0.9360       985
+model_checkpoint_path: "model.ckpt-53000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9133    0.9080    0.9107       174
+         ART     0.9605    0.9359    0.9481        78
+     GEN-AFF     0.9242    0.9070    0.9155       215
+     ORG-AFF     0.9713    0.9621    0.9667       211
+  PART-WHOLE     0.9375    0.9574    0.9474       235
+     PER-SOC     0.9730    1.0000    0.9863        72
+
+   micro avg     0.9420    0.9401    0.9411       985
+   macro avg     0.9466    0.9451    0.9458       985
+weighted avg     0.9420    0.9401    0.9410       985
+model_checkpoint_path: "model.ckpt-54000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9017    0.8966    0.8991       174
+         ART     0.9250    0.9487    0.9367        78
+     GEN-AFF     0.9198    0.9070    0.9133       215
+     ORG-AFF     0.9667    0.9621    0.9644       211
+  PART-WHOLE     0.9322    0.9362    0.9342       235
+     PER-SOC     0.9730    1.0000    0.9863        72
+
+   micro avg     0.9340    0.9340    0.9340       985
+   macro avg     0.9364    0.9418    0.9390       985
+weighted avg     0.9339    0.9340    0.9339       985
+model_checkpoint_path: "model.ckpt-55000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8663    0.9310    0.8975       174
+         ART     0.9605    0.9359    0.9481        78
+     GEN-AFF     0.9194    0.9023    0.9108       215
+     ORG-AFF     0.9756    0.9479    0.9615       211
+  PART-WHOLE     0.9471    0.9149    0.9307       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9356    0.9299    0.9328       985
+   macro avg     0.9426    0.9387    0.9403       985
+weighted avg     0.9368    0.9299    0.9330       985
+model_checkpoint_path: "model.ckpt-56000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8846    0.9253    0.9045       174
+         ART     0.9600    0.9231    0.9412        78
+     GEN-AFF     0.9330    0.9070    0.9198       215
+     ORG-AFF     0.9713    0.9621    0.9667       211
+  PART-WHOLE     0.9442    0.9362    0.9402       235
+     PER-SOC     0.9861    0.9861    0.9861        72
+
+   micro avg     0.9408    0.9360    0.9384       985
+   macro avg     0.9465    0.9400    0.9431       985
+weighted avg     0.9414    0.9360    0.9385       985
+model_checkpoint_path: "model.ckpt-57000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8579    0.9368    0.8956       174
+         ART     0.9722    0.8974    0.9333        78
+     GEN-AFF     0.9282    0.9023    0.9151       215
+     ORG-AFF     0.9902    0.9573    0.9735       211
+  PART-WHOLE     0.9442    0.9362    0.9402       235
+     PER-SOC     0.9730    1.0000    0.9863        72
+
+   micro avg     0.9379    0.9350    0.9365       985
+   macro avg     0.9443    0.9383    0.9407       985
+weighted avg     0.9396    0.9350    0.9368       985
+model_checkpoint_path: "model.ckpt-59000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9050    0.9310    0.9178       174
+         ART     0.9733    0.9359    0.9542        78
+     GEN-AFF     0.9500    0.8837    0.9157       215
+     ORG-AFF     0.9807    0.9621    0.9713       211
+  PART-WHOLE     0.9150    0.9617    0.9378       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9439    0.9401    0.9420       985
+   macro avg     0.9517    0.9457    0.9483       985
+weighted avg     0.9448    0.9401    0.9420       985
+model_checkpoint_path: "model.ckpt-60000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8901    0.9310    0.9101       174
+         ART     0.9726    0.9103    0.9404        78
+     GEN-AFF     0.9536    0.8605    0.9046       215
+     ORG-AFF     0.9624    0.9716    0.9670       211
+  PART-WHOLE     0.9146    0.9574    0.9356       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9378    0.9340    0.9359       985
+   macro avg     0.9466    0.9385    0.9418       985
+weighted avg     0.9389    0.9340    0.9356       985
+model_checkpoint_path: "model.ckpt-61000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9000    0.9310    0.9153       174
+         ART     1.0000    0.8974    0.9459        78
+     GEN-AFF     0.9458    0.8930    0.9187       215
+     ORG-AFF     0.9716    0.9716    0.9716       211
+  PART-WHOLE     0.9268    0.9702    0.9480       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9451    0.9431    0.9441       985
+   macro avg     0.9551    0.9439    0.9488       985
+weighted avg     0.9460    0.9431    0.9440       985
+model_checkpoint_path: "model.ckpt-62000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8939    0.9195    0.9065       174
+         ART     0.9467    0.9103    0.9281        78
+     GEN-AFF     0.9559    0.9070    0.9308       215
+     ORG-AFF     0.9805    0.9526    0.9663       211
+  PART-WHOLE     0.9184    0.9574    0.9375       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9429    0.9381    0.9405       985
+   macro avg     0.9492    0.9411    0.9449       985
+weighted avg     0.9437    0.9381    0.9406       985
+model_checkpoint_path: "model.ckpt-63000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9023    0.9023    0.9023       174
+         ART     0.9359    0.9359    0.9359        78
+     GEN-AFF     0.9423    0.9116    0.9267       215
+     ORG-AFF     0.9854    0.9621    0.9736       211
+  PART-WHOLE     0.9380    0.9660    0.9518       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9460    0.9421    0.9440       985
+   macro avg     0.9484    0.9463    0.9472       985
+weighted avg     0.9462    0.9421    0.9440       985
+model_checkpoint_path: "model.ckpt-64000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8827    0.9080    0.8952       174
+         ART     0.9459    0.8974    0.9211        78
+     GEN-AFF     0.9340    0.9209    0.9274       215
+     ORG-AFF     0.9713    0.9621    0.9667       211
+  PART-WHOLE     0.9447    0.9447    0.9447       235
+     PER-SOC     1.0000    0.9861    0.9930        72
+
+   micro avg     0.9408    0.9360    0.9384       985
+   macro avg     0.9464    0.9365    0.9413       985
+weighted avg     0.9412    0.9360    0.9385       985
+model_checkpoint_path: "model.ckpt-65000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8870    0.9023    0.8946       174
+         ART     0.9241    0.9359    0.9299        78
+     GEN-AFF     0.9463    0.9023    0.9238       215
+     ORG-AFF     0.9714    0.9668    0.9691       211
+  PART-WHOLE     0.9409    0.9489    0.9449       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9409    0.9371    0.9390       985
+   macro avg     0.9427    0.9427    0.9426       985
+weighted avg     0.9411    0.9371    0.9389       985
+model_checkpoint_path: "model.ckpt-67000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8908    0.8908    0.8908       174
+         ART     0.9333    0.8974    0.9150        78
+     GEN-AFF     0.9324    0.8977    0.9147       215
+     ORG-AFF     0.9670    0.9716    0.9693       211
+  PART-WHOLE     0.9295    0.9532    0.9412       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9358    0.9330    0.9344       985
+   macro avg     0.9399    0.9351    0.9373       985
+weighted avg     0.9358    0.9330    0.9342       985
+model_checkpoint_path: "model.ckpt-68000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8729    0.9080    0.8901       174
+         ART     0.9231    0.9231    0.9231        78
+     GEN-AFF     0.9409    0.8884    0.9139       215
+     ORG-AFF     0.9621    0.9621    0.9621       211
+  PART-WHOLE     0.9402    0.9362    0.9382       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9347    0.9299    0.9323       985
+   macro avg     0.9376    0.9363    0.9367       985
+weighted avg     0.9352    0.9299    0.9323       985
+model_checkpoint_path: "model.ckpt-69000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8994    0.9253    0.9122       174
+         ART     0.9481    0.9359    0.9419        78
+     GEN-AFF     0.9458    0.8930    0.9187       215
+     ORG-AFF     0.9761    0.9668    0.9714       211
+  PART-WHOLE     0.9298    0.9574    0.9434       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9440    0.9411    0.9426       985
+   macro avg     0.9499    0.9464    0.9479       985
+weighted avg     0.9444    0.9411    0.9425       985
+model_checkpoint_path: "model.ckpt-70000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9017    0.8966    0.8991       174
+         ART     0.9136    0.9487    0.9308        78
+     GEN-AFF     0.9147    0.8977    0.9061       215
+     ORG-AFF     0.9808    0.9668    0.9737       211
+  PART-WHOLE     0.9241    0.9319    0.9280       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9348    0.9320    0.9334       985
+   macro avg     0.9391    0.9403    0.9396       985
+weighted avg     0.9349    0.9320    0.9334       985
+model_checkpoint_path: "model.ckpt-71000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9118    0.8908    0.9012       174
+         ART     0.9125    0.9359    0.9241        78
+     GEN-AFF     0.9363    0.8884    0.9117       215
+     ORG-AFF     0.9716    0.9716    0.9716       211
+  PART-WHOLE     0.9218    0.9532    0.9372       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9388    0.9340    0.9364       985
+   macro avg     0.9423    0.9400    0.9410       985
+weighted avg     0.9388    0.9340    0.9362       985
+model_checkpoint_path: "model.ckpt-72000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8950    0.9310    0.9127       174
+         ART     0.9595    0.9103    0.9342        78
+     GEN-AFF     0.9387    0.9256    0.9321       215
+     ORG-AFF     0.9762    0.9716    0.9739       211
+  PART-WHOLE     0.9440    0.9319    0.9379       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9460    0.9421    0.9440       985
+   macro avg     0.9522    0.9451    0.9485       985
+weighted avg     0.9464    0.9421    0.9441       985
+model_checkpoint_path: "model.ckpt-74000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8757    0.9310    0.9025       174
+         ART     0.9481    0.9359    0.9419        78
+     GEN-AFF     0.9469    0.9116    0.9289       215
+     ORG-AFF     0.9809    0.9716    0.9762       211
+  PART-WHOLE     0.9565    0.9362    0.9462       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9460    0.9421    0.9440       985
+   macro avg     0.9490    0.9477    0.9481       985
+weighted avg     0.9469    0.9421    0.9442       985
+model_checkpoint_path: "model.ckpt-75000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9006    0.9368    0.9183       174
+         ART     0.9865    0.9359    0.9605        78
+     GEN-AFF     0.9167    0.9209    0.9188       215
+     ORG-AFF     0.9808    0.9668    0.9737       211
+  PART-WHOLE     0.9481    0.9319    0.9399       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9460    0.9431    0.9446       985
+   macro avg     0.9554    0.9487    0.9519       985
+weighted avg     0.9467    0.9431    0.9448       985
+model_checkpoint_path: "model.ckpt-76000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8601    0.9540    0.9046       174
+         ART     0.9861    0.9103    0.9467        78
+     GEN-AFF     0.9590    0.8698    0.9122       215
+     ORG-AFF     0.9714    0.9668    0.9691       211
+  PART-WHOLE     0.9328    0.9447    0.9387       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9399    0.9360    0.9379       985
+   macro avg     0.9493    0.9409    0.9441       985
+weighted avg     0.9421    0.9360    0.9380       985
+model_checkpoint_path: "model.ckpt-77000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8913    0.9425    0.9162       174
+         ART     0.9726    0.9103    0.9404        78
+     GEN-AFF     0.9515    0.9116    0.9311       215
+     ORG-AFF     0.9761    0.9668    0.9714       211
+  PART-WHOLE     0.9367    0.9447    0.9407       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9460    0.9431    0.9446       985
+   macro avg     0.9524    0.9460    0.9488       985
+weighted avg     0.9468    0.9431    0.9447       985
+model_checkpoint_path: "model.ckpt-78000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9029    0.9080    0.9054       174
+         ART     0.9474    0.9231    0.9351        78
+     GEN-AFF     0.9202    0.9116    0.9159       215
+     ORG-AFF     0.9714    0.9668    0.9691       211
+  PART-WHOLE     0.9319    0.9319    0.9319       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9379    0.9350    0.9365       985
+   macro avg     0.9433    0.9402    0.9418       985
+weighted avg     0.9379    0.9350    0.9364       985
+model_checkpoint_path: "model.ckpt-80000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9056    0.9368    0.9209       174
+         ART     0.9730    0.9231    0.9474        78
+     GEN-AFF     0.9512    0.9070    0.9286       215
+     ORG-AFF     0.9670    0.9716    0.9693       211
+  PART-WHOLE     0.9407    0.9447    0.9427       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9480    0.9431    0.9455       985
+   macro avg     0.9540    0.9472    0.9503       985
+weighted avg     0.9483    0.9431    0.9455       985
+model_checkpoint_path: "model.ckpt-81000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8939    0.9195    0.9065       174
+         ART     0.9467    0.9103    0.9281        78
+     GEN-AFF     0.9252    0.9209    0.9231       215
+     ORG-AFF     0.9761    0.9668    0.9714       211
+  PART-WHOLE     0.9391    0.9191    0.9290       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9408    0.9350    0.9379       985
+   macro avg     0.9468    0.9395    0.9430       985
+weighted avg     0.9411    0.9350    0.9380       985
+model_checkpoint_path: "model.ckpt-82000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9106    0.9368    0.9235       174
+         ART     0.9375    0.9615    0.9494        78
+     GEN-AFF     0.9296    0.9209    0.9252       215
+     ORG-AFF     0.9902    0.9573    0.9735       211
+  PART-WHOLE     0.9476    0.9234    0.9353       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9488    0.9411    0.9450       985
+   macro avg     0.9526    0.9500    0.9512       985
+weighted avg     0.9493    0.9411    0.9451       985
+model_checkpoint_path: "model.ckpt-83000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8871    0.9483    0.9167       174
+         ART     0.9730    0.9231    0.9474        78
+     GEN-AFF     0.9512    0.9070    0.9286       215
+     ORG-AFF     0.9809    0.9716    0.9762       211
+  PART-WHOLE     0.9407    0.9447    0.9427       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9481    0.9452    0.9466       985
+   macro avg     0.9555    0.9491    0.9519       985
+weighted avg     0.9490    0.9452    0.9467       985
+model_checkpoint_path: "model.ckpt-84000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8804    0.9310    0.9050       174
+         ART     0.9351    0.9231    0.9290        78
+     GEN-AFF     0.9507    0.8977    0.9234       215
+     ORG-AFF     0.9623    0.9668    0.9645       211
+  PART-WHOLE     0.9528    0.9447    0.9487       235
+     PER-SOC     1.0000    0.9861    0.9930        72
+
+   micro avg     0.9429    0.9381    0.9405       985
+   macro avg     0.9469    0.9416    0.9440       985
+weighted avg     0.9436    0.9381    0.9406       985
+model_checkpoint_path: "model.ckpt-85000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9029    0.9080    0.9054       174
+         ART     0.9467    0.9103    0.9281        78
+     GEN-AFF     0.9455    0.8884    0.9161       215
+     ORG-AFF     0.9579    0.9716    0.9647       211
+  PART-WHOLE     0.9259    0.9574    0.9414       235
+     PER-SOC     1.0000    0.9861    0.9930        72
+
+   micro avg     0.9398    0.9350    0.9374       985
+   macro avg     0.9465    0.9370    0.9415       985
+weighted avg     0.9400    0.9350    0.9372       985
+model_checkpoint_path: "model.ckpt-87000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8953    0.8851    0.8902       174
+         ART     0.9024    0.9487    0.9250        78
+     GEN-AFF     0.9139    0.8884    0.9009       215
+     ORG-AFF     0.9488    0.9668    0.9577       211
+  PART-WHOLE     0.9394    0.9234    0.9313       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9287    0.9259    0.9273       985
+   macro avg     0.9310    0.9354    0.9330       985
+weighted avg     0.9286    0.9259    0.9271       985
+model_checkpoint_path: "model.ckpt-88000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8977    0.9080    0.9029       174
+         ART     0.9351    0.9231    0.9290        78
+     GEN-AFF     0.9420    0.9070    0.9242       215
+     ORG-AFF     0.9716    0.9716    0.9716       211
+  PART-WHOLE     0.9412    0.9532    0.9471       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9430    0.9401    0.9415       985
+   macro avg     0.9456    0.9438    0.9446       985
+weighted avg     0.9430    0.9401    0.9415       985
+model_checkpoint_path: "model.ckpt-89000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8966    0.8966    0.8966       174
+         ART     0.9241    0.9359    0.9299        78
+     GEN-AFF     0.9198    0.9070    0.9133       215
+     ORG-AFF     0.9714    0.9668    0.9691       211
+  PART-WHOLE     0.9404    0.9404    0.9404       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9379    0.9350    0.9365       985
+   macro avg     0.9420    0.9411    0.9416       985
+weighted avg     0.9379    0.9350    0.9364       985
+model_checkpoint_path: "model.ckpt-90000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9202    0.8621    0.8902       174
+         ART     0.9114    0.9231    0.9172        78
+     GEN-AFF     0.9132    0.9302    0.9217       215
+     ORG-AFF     0.9761    0.9668    0.9714       211
+  PART-WHOLE     0.9375    0.9574    0.9474       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9390    0.9371    0.9380       985
+   macro avg     0.9408    0.9399    0.9402       985
+weighted avg     0.9389    0.9371    0.9378       985
+model_checkpoint_path: "model.ckpt-91000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9086    0.9138    0.9112       174
+         ART     0.9359    0.9359    0.9359        78
+     GEN-AFF     0.9469    0.9116    0.9289       215
+     ORG-AFF     0.9716    0.9716    0.9716       211
+  PART-WHOLE     0.9414    0.9574    0.9494       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9461    0.9442    0.9451       985
+   macro avg     0.9484    0.9484    0.9483       985
+weighted avg     0.9461    0.9442    0.9450       985
+model_checkpoint_path: "model.ckpt-93000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8703    0.9253    0.8969       174
+         ART     0.9359    0.9359    0.9359        78
+     GEN-AFF     0.9545    0.8791    0.9153       215
+     ORG-AFF     0.9447    0.9716    0.9579       211
+  PART-WHOLE     0.9481    0.9319    0.9399       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9358    0.9330    0.9344       985
+   macro avg     0.9400    0.9406    0.9398       985
+weighted avg     0.9368    0.9330    0.9344       985
+model_checkpoint_path: "model.ckpt-94000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8864    0.8966    0.8914       174
+         ART     0.9726    0.9103    0.9404        78
+     GEN-AFF     0.9083    0.9209    0.9145       215
+     ORG-AFF     0.9401    0.9668    0.9533       211
+  PART-WHOLE     0.9515    0.9191    0.9351       235
+     PER-SOC     0.9861    0.9861    0.9861        72
+
+   micro avg     0.9318    0.9299    0.9309       985
+   macro avg     0.9408    0.9333    0.9368       985
+weighted avg     0.9323    0.9299    0.9309       985
+model_checkpoint_path: "model.ckpt-95000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8624    0.9368    0.8981       174
+         ART     0.9857    0.8846    0.9324        78
+     GEN-AFF     0.9372    0.9023    0.9194       215
+     ORG-AFF     0.9668    0.9668    0.9668       211
+  PART-WHOLE     0.9483    0.9362    0.9422       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9389    0.9360    0.9375       985
+   macro avg     0.9478    0.9378    0.9420       985
+weighted avg     0.9404    0.9360    0.9377       985
+model_checkpoint_path: "model.ckpt-96000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8798    0.9253    0.9020       174
+         ART     0.9231    0.9231    0.9231        78
+     GEN-AFF     0.9336    0.9163    0.9249       215
+     ORG-AFF     0.9808    0.9668    0.9737       211
+  PART-WHOLE     0.9607    0.9362    0.9483       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9430    0.9401    0.9415       985
+   macro avg     0.9440    0.9446    0.9442       985
+weighted avg     0.9437    0.9401    0.9417       985
+model_checkpoint_path: "model.ckpt-97000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8804    0.9310    0.9050       174
+         ART     0.9589    0.8974    0.9272        78
+     GEN-AFF     0.9167    0.9209    0.9188       215
+     ORG-AFF     0.9668    0.9668    0.9668       211
+  PART-WHOLE     0.9558    0.9191    0.9371       235
+     PER-SOC     0.9861    0.9861    0.9861        72
+
+   micro avg     0.9379    0.9350    0.9365       985
+   macro avg     0.9441    0.9369    0.9402       985
+weighted avg     0.9388    0.9350    0.9366       985
+model_checkpoint_path: "model.ckpt-98000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8933    0.9138    0.9034       174
+         ART     0.9125    0.9359    0.9241        78
+     GEN-AFF     0.9378    0.9116    0.9245       215
+     ORG-AFF     0.9716    0.9716    0.9716       211
+  PART-WHOLE     0.9610    0.9447    0.9528       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9440    0.9411    0.9426       985
+   macro avg     0.9437    0.9463    0.9449       985
+weighted avg     0.9443    0.9411    0.9426       985
+model_checkpoint_path: "model.ckpt-100000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9091    0.8621    0.8850       174
+         ART     0.8736    0.9744    0.9212        78
+     GEN-AFF     0.9209    0.9209    0.9209       215
+     ORG-AFF     0.9762    0.9716    0.9739       211
+  PART-WHOLE     0.9567    0.9404    0.9485       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9399    0.9360    0.9379       985
+   macro avg     0.9371    0.9449    0.9404       985
+weighted avg     0.9402    0.9360    0.9378       985
+model_checkpoint_path: "model.ckpt-101000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8846    0.9253    0.9045       174
+         ART     0.9861    0.9103    0.9467        78
+     GEN-AFF     0.9415    0.8977    0.9190       215
+     ORG-AFF     0.9855    0.9668    0.9761       211
+  PART-WHOLE     0.9177    0.9489    0.9331       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9409    0.9381    0.9395       985
+   macro avg     0.9503    0.9415    0.9454       985
+weighted avg     0.9420    0.9381    0.9396       985
+model_checkpoint_path: "model.ckpt-102000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8770    0.9425    0.9086       174
+         ART     0.9859    0.8974    0.9396        78
+     GEN-AFF     0.9128    0.9256    0.9192       215
+     ORG-AFF     0.9807    0.9621    0.9713       211
+  PART-WHOLE     0.9515    0.9191    0.9351       235
+     PER-SOC     1.0000    0.9861    0.9930        72
+
+   micro avg     0.9409    0.9371    0.9390       985
+   macro avg     0.9513    0.9388    0.9445       985
+weighted avg     0.9424    0.9371    0.9393       985
+model_checkpoint_path: "model.ckpt-103000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9000    0.9310    0.9153       174
+         ART     0.9863    0.9231    0.9536        78
+     GEN-AFF     0.9429    0.9209    0.9318       215
+     ORG-AFF     0.9807    0.9621    0.9713       211
+  PART-WHOLE     0.9456    0.9617    0.9536       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9511    0.9472    0.9491       985
+   macro avg     0.9592    0.9498    0.9543       985
+weighted avg     0.9517    0.9472    0.9492       985
+model_checkpoint_path: "model.ckpt-104000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9143    0.9195    0.9169       174
+         ART     0.9861    0.9103    0.9467        78
+     GEN-AFF     0.9336    0.9163    0.9249       215
+     ORG-AFF     0.9760    0.9621    0.9690       211
+  PART-WHOLE     0.9342    0.9660    0.9498       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9470    0.9442    0.9456       985
+   macro avg     0.9551    0.9457    0.9501       985
+weighted avg     0.9474    0.9442    0.9456       985
+model_checkpoint_path: "model.ckpt-105000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9255    0.8563    0.8896       174
+         ART     0.8929    0.9615    0.9259        78
+     GEN-AFF     0.9132    0.9302    0.9217       215
+     ORG-AFF     0.9807    0.9621    0.9713       211
+  PART-WHOLE     0.9370    0.9489    0.9429       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9399    0.9360    0.9379       985
+   macro avg     0.9415    0.9432    0.9419       985
+weighted avg     0.9402    0.9360    0.9378       985
+model_checkpoint_path: "model.ckpt-107000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9128    0.9023    0.9075       174
+         ART     0.9605    0.9359    0.9481        78
+     GEN-AFF     0.9369    0.8977    0.9169       215
+     ORG-AFF     0.9808    0.9668    0.9737       211
+  PART-WHOLE     0.9228    0.9660    0.9439       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9449    0.9401    0.9425       985
+   macro avg     0.9523    0.9448    0.9483       985
+weighted avg     0.9451    0.9401    0.9424       985
+model_checkpoint_path: "model.ckpt-108000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9128    0.9023    0.9075       174
+         ART     0.9359    0.9359    0.9359        78
+     GEN-AFF     0.9343    0.9256    0.9299       215
+     ORG-AFF     0.9713    0.9621    0.9667       211
+  PART-WHOLE     0.9451    0.9532    0.9492       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9460    0.9421    0.9440       985
+   macro avg     0.9499    0.9465    0.9482       985
+weighted avg     0.9459    0.9421    0.9440       985
+model_checkpoint_path: "model.ckpt-109000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8907    0.9368    0.9132       174
+         ART     0.9605    0.9359    0.9481        78
+     GEN-AFF     0.9497    0.8791    0.9130       215
+     ORG-AFF     0.9761    0.9668    0.9714       211
+  PART-WHOLE     0.9218    0.9532    0.9372       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9410    0.9391    0.9400       985
+   macro avg     0.9475    0.9453    0.9460       985
+weighted avg     0.9418    0.9391    0.9400       985
+model_checkpoint_path: "model.ckpt-110000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9096    0.9253    0.9174       174
+         ART     0.9610    0.9487    0.9548        78
+     GEN-AFF     0.9268    0.8837    0.9048       215
+     ORG-AFF     0.9714    0.9668    0.9691       211
+  PART-WHOLE     0.9212    0.9447    0.9328       235
+     PER-SOC     1.0000    0.9861    0.9930        72
+
+   micro avg     0.9399    0.9360    0.9379       985
+   macro avg     0.9483    0.9426    0.9453       985
+weighted avg     0.9400    0.9360    0.9379       985
+model_checkpoint_path: "model.ckpt-111000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9017    0.8966    0.8991       174
+         ART     0.9367    0.9487    0.9427        78
+     GEN-AFF     0.9353    0.8744    0.9038       215
+     ORG-AFF     0.9577    0.9668    0.9623       211
+  PART-WHOLE     0.9221    0.9574    0.9395       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9358    0.9330    0.9344       985
+   macro avg     0.9423    0.9407    0.9412       985
+weighted avg     0.9359    0.9330    0.9341       985
+model_checkpoint_path: "model.ckpt-112000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9070    0.8966    0.9017       174
+         ART     0.9367    0.9487    0.9427        78
+     GEN-AFF     0.9272    0.8884    0.9074       215
+     ORG-AFF     0.9714    0.9668    0.9691       211
+  PART-WHOLE     0.9259    0.9574    0.9414       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9389    0.9360    0.9375       985
+   macro avg     0.9447    0.9430    0.9437       985
+weighted avg     0.9389    0.9360    0.9373       985
+model_checkpoint_path: "model.ckpt-114000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8977    0.9080    0.9029       174
+         ART     0.9367    0.9487    0.9427        78
+     GEN-AFF     0.9453    0.8837    0.9135       215
+     ORG-AFF     0.9668    0.9668    0.9668       211
+  PART-WHOLE     0.9215    0.9489    0.9350       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9388    0.9350    0.9369       985
+   macro avg     0.9447    0.9427    0.9435       985
+weighted avg     0.9391    0.9350    0.9368       985
+model_checkpoint_path: "model.ckpt-115000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9017    0.8966    0.8991       174
+         ART     0.9024    0.9487    0.9250        78
+     GEN-AFF     0.9458    0.8930    0.9187       215
+     ORG-AFF     0.9760    0.9621    0.9690       211
+  PART-WHOLE     0.9218    0.9532    0.9372       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9388    0.9350    0.9369       985
+   macro avg     0.9413    0.9423    0.9415       985
+weighted avg     0.9393    0.9350    0.9369       985
+model_checkpoint_path: "model.ckpt-116000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8944    0.9253    0.9096       174
+         ART     0.9359    0.9359    0.9359        78
+     GEN-AFF     0.9397    0.8698    0.9034       215
+     ORG-AFF     0.9358    0.9668    0.9510       211
+  PART-WHOLE     0.9316    0.9277    0.9296       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9327    0.9289    0.9308       985
+   macro avg     0.9396    0.9376    0.9383       985
+weighted avg     0.9330    0.9289    0.9306       985
+model_checkpoint_path: "model.ckpt-117000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.8939    0.9195    0.9065       174
+         ART     0.9481    0.9359    0.9419        78
+     GEN-AFF     0.9282    0.9023    0.9151       215
+     ORG-AFF     0.9713    0.9621    0.9667       211
+  PART-WHOLE     0.9409    0.9489    0.9449       235
+     PER-SOC     1.0000    0.9861    0.9930        72
+
+   micro avg     0.9409    0.9381    0.9395       985
+   macro avg     0.9471    0.9425    0.9447       985
+weighted avg     0.9412    0.9381    0.9396       985
+model_checkpoint_path: "model.ckpt-118000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9029    0.9080    0.9054       174
+         ART     0.9359    0.9359    0.9359        78
+     GEN-AFF     0.9282    0.9023    0.9151       215
+     ORG-AFF     0.9713    0.9621    0.9667       211
+  PART-WHOLE     0.9372    0.9532    0.9451       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9409    0.9381    0.9395       985
+   macro avg     0.9459    0.9436    0.9447       985
+weighted avg     0.9410    0.9381    0.9395       985
+model_checkpoint_path: "model.ckpt-120000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9017    0.8966    0.8991       174
+         ART     0.9367    0.9487    0.9427        78
+     GEN-AFF     0.9356    0.8791    0.9065       215
+     ORG-AFF     0.9761    0.9668    0.9714       211
+  PART-WHOLE     0.9150    0.9617    0.9378       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9369    0.9350    0.9360       985
+   macro avg     0.9419    0.9421    0.9418       985
+weighted avg     0.9372    0.9350    0.9358       985
+model_checkpoint_path: "model.ckpt-121000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9212    0.8736    0.8968       174
+         ART     0.9024    0.9487    0.9250        78
+     GEN-AFF     0.9159    0.9116    0.9138       215
+     ORG-AFF     0.9808    0.9668    0.9737       211
+  PART-WHOLE     0.9295    0.9532    0.9412       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9389    0.9360    0.9375       985
+   macro avg     0.9416    0.9423    0.9417       985
+weighted avg     0.9390    0.9360    0.9373       985
+model_checkpoint_path: "model.ckpt-122000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9157    0.8736    0.8941       174
+         ART     0.9012    0.9359    0.9182        78
+     GEN-AFF     0.9171    0.9256    0.9213       215
+     ORG-AFF     0.9761    0.9668    0.9714       211
+  PART-WHOLE     0.9492    0.9532    0.9512       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9409    0.9381    0.9395       985
+   macro avg     0.9409    0.9425    0.9416       985
+weighted avg     0.9409    0.9381    0.9394       985
+model_checkpoint_path: "model.ckpt-123000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9034    0.9138    0.9086       174
+         ART     0.9359    0.9359    0.9359        78
+     GEN-AFF     0.9429    0.9209    0.9318       215
+     ORG-AFF     0.9761    0.9668    0.9714       211
+  PART-WHOLE     0.9532    0.9532    0.9532       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9490    0.9442    0.9466       985
+   macro avg     0.9519    0.9484    0.9501       985
+weighted avg     0.9491    0.9442    0.9466       985
+model_checkpoint_path: "model.ckpt-124000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9133    0.9080    0.9107       174
+         ART     0.9494    0.9615    0.9554        78
+     GEN-AFF     0.9265    0.8791    0.9021       215
+     ORG-AFF     0.9714    0.9668    0.9691       211
+  PART-WHOLE     0.9139    0.9489    0.9311       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9379    0.9350    0.9365       985
+   macro avg     0.9457    0.9441    0.9447       985
+weighted avg     0.9380    0.9350    0.9363       985
+model_checkpoint_path: "model.ckpt-126000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9207    0.8678    0.8935       174
+         ART     0.9146    0.9615    0.9375        78
+     GEN-AFF     0.9167    0.9209    0.9188       215
+     ORG-AFF     0.9807    0.9621    0.9713       211
+  PART-WHOLE     0.9298    0.9574    0.9434       235
+     PER-SOC     0.9861    0.9861    0.9861        72
+
+   micro avg     0.9390    0.9371    0.9380       985
+   macro avg     0.9414    0.9427    0.9418       985
+weighted avg     0.9391    0.9371    0.9378       985
+model_checkpoint_path: "model.ckpt-127000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9123    0.8966    0.9043       174
+         ART     0.9359    0.9359    0.9359        78
+     GEN-AFF     0.9360    0.8837    0.9091       215
+     ORG-AFF     0.9623    0.9668    0.9645       211
+  PART-WHOLE     0.9262    0.9617    0.9436       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9388    0.9350    0.9369       985
+   macro avg     0.9432    0.9408    0.9418       985
+weighted avg     0.9388    0.9350    0.9366       985
+model_checkpoint_path: "model.ckpt-128000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9107    0.8793    0.8947       174
+         ART     0.9359    0.9359    0.9359        78
+     GEN-AFF     0.9209    0.9209    0.9209       215
+     ORG-AFF     0.9713    0.9621    0.9667       211
+  PART-WHOLE     0.9454    0.9574    0.9514       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9419    0.9381    0.9400       985
+   macro avg     0.9451    0.9426    0.9438       985
+weighted avg     0.9417    0.9381    0.9398       985
+model_checkpoint_path: "model.ckpt-129000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9212    0.8736    0.8968       174
+         ART     0.9241    0.9359    0.9299        78
+     GEN-AFF     0.9163    0.9163    0.9163       215
+     ORG-AFF     0.9807    0.9621    0.9713       211
+  PART-WHOLE     0.9300    0.9617    0.9456       235
+     PER-SOC     0.9861    0.9861    0.9861        72
+
+   micro avg     0.9399    0.9360    0.9379       985
+   macro avg     0.9431    0.9393    0.9410       985
+weighted avg     0.9399    0.9360    0.9378       985
+model_checkpoint_path: "model.ckpt-130000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9012    0.8908    0.8960       174
+         ART     0.9359    0.9359    0.9359        78
+     GEN-AFF     0.9256    0.9256    0.9256       215
+     ORG-AFF     0.9713    0.9621    0.9667       211
+  PART-WHOLE     0.9528    0.9447    0.9487       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9429    0.9381    0.9405       985
+   macro avg     0.9455    0.9432    0.9443       985
+weighted avg     0.9428    0.9381    0.9404       985
+model_checkpoint_path: "model.ckpt-131000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9059    0.8851    0.8953       174
+         ART     0.9359    0.9359    0.9359        78
+     GEN-AFF     0.9209    0.9209    0.9209       215
+     ORG-AFF     0.9760    0.9621    0.9690       211
+  PART-WHOLE     0.9451    0.9532    0.9492       235
+     PER-SOC     0.9861    0.9861    0.9861        72
+
+   micro avg     0.9418    0.9371    0.9394       985
+   macro avg     0.9450    0.9405    0.9427       985
+weighted avg     0.9418    0.9371    0.9394       985
+model_checkpoint_path: "model.ckpt-133000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9053    0.8793    0.8921       174
+         ART     0.9125    0.9359    0.9241        78
+     GEN-AFF     0.9286    0.9070    0.9176       215
+     ORG-AFF     0.9808    0.9668    0.9737       211
+  PART-WHOLE     0.9253    0.9489    0.9370       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9378    0.9340    0.9359       985
+   macro avg     0.9398    0.9397    0.9396       985
+weighted avg     0.9378    0.9340    0.9358       985
+model_checkpoint_path: "model.ckpt-134000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9053    0.8793    0.8921       174
+         ART     0.9114    0.9231    0.9172        78
+     GEN-AFF     0.9372    0.9023    0.9194       215
+     ORG-AFF     0.9761    0.9668    0.9714       211
+  PART-WHOLE     0.9221    0.9574    0.9395       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9378    0.9340    0.9359       985
+   macro avg     0.9397    0.9382    0.9388       985
+weighted avg     0.9378    0.9340    0.9357       985
+model_checkpoint_path: "model.ckpt-136000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9064    0.8908    0.8986       174
+         ART     0.9136    0.9487    0.9308        78
+     GEN-AFF     0.9412    0.8930    0.9165       215
+     ORG-AFF     0.9761    0.9668    0.9714       211
+  PART-WHOLE     0.9218    0.9532    0.9372       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9388    0.9350    0.9369       985
+   macro avg     0.9409    0.9421    0.9413       985
+weighted avg     0.9390    0.9350    0.9368       985
+model_checkpoint_path: "model.ckpt-137000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9064    0.8908    0.8986       174
+         ART     0.9125    0.9359    0.9241        78
+     GEN-AFF     0.9415    0.8977    0.9190       215
+     ORG-AFF     0.9714    0.9668    0.9691       211
+  PART-WHOLE     0.9256    0.9532    0.9392       235
+     PER-SOC     1.0000    1.0000    1.0000        72
+
+   micro avg     0.9398    0.9350    0.9374       985
+   macro avg     0.9429    0.9407    0.9417       985
+weighted avg     0.9399    0.9350    0.9373       985
+model_checkpoint_path: "model.ckpt-138000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9053    0.8793    0.8921       174
+         ART     0.9136    0.9487    0.9308        78
+     GEN-AFF     0.9369    0.8977    0.9169       215
+     ORG-AFF     0.9761    0.9668    0.9714       211
+  PART-WHOLE     0.9259    0.9574    0.9414       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9388    0.9350    0.9369       985
+   macro avg     0.9407    0.9417    0.9410       985
+weighted avg     0.9389    0.9350    0.9367       985
+model_checkpoint_path: "model.ckpt-139000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9000    0.8793    0.8895       174
+         ART     0.9136    0.9487    0.9308        78
+     GEN-AFF     0.9333    0.9116    0.9224       215
+     ORG-AFF     0.9808    0.9668    0.9737       211
+  PART-WHOLE     0.9333    0.9532    0.9432       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9399    0.9371    0.9385       985
+   macro avg     0.9412    0.9433    0.9421       985
+weighted avg     0.9399    0.9371    0.9384       985
+model_checkpoint_path: "model.ckpt-140000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9059    0.8851    0.8953       174
+         ART     0.9250    0.9487    0.9367        78
+     GEN-AFF     0.9179    0.8837    0.9005       215
+     ORG-AFF     0.9714    0.9668    0.9691       211
+  PART-WHOLE     0.9174    0.9447    0.9308       235
+     PER-SOC     0.9861    0.9861    0.9861        72
+
+   micro avg     0.9327    0.9289    0.9308       985
+   macro avg     0.9373    0.9359    0.9364       985
+weighted avg     0.9327    0.9289    0.9306       985
+model_checkpoint_path: "model.ckpt-141000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9059    0.8851    0.8953       174
+         ART     0.9241    0.9359    0.9299        78
+     GEN-AFF     0.9249    0.9163    0.9206       215
+     ORG-AFF     0.9760    0.9621    0.9690       211
+  PART-WHOLE     0.9372    0.9532    0.9451       235
+     PER-SOC     0.9861    0.9861    0.9861        72
+
+   micro avg     0.9399    0.9360    0.9379       985
+   macro avg     0.9424    0.9398    0.9410       985
+weighted avg     0.9398    0.9360    0.9379       985
+model_checkpoint_path: "model.ckpt-143000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9064    0.8908    0.8986       174
+         ART     0.9359    0.9359    0.9359        78
+     GEN-AFF     0.9128    0.9256    0.9192       215
+     ORG-AFF     0.9760    0.9621    0.9690       211
+  PART-WHOLE     0.9404    0.9404    0.9404       235
+     PER-SOC     0.9861    0.9861    0.9861        72
+
+   micro avg     0.9389    0.9360    0.9375       985
+   macro avg     0.9429    0.9402    0.9415       985
+weighted avg     0.9390    0.9360    0.9375       985
+model_checkpoint_path: "model.ckpt-144000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9128    0.9023    0.9075       174
+         ART     0.9481    0.9359    0.9419        78
+     GEN-AFF     0.9209    0.9209    0.9209       215
+     ORG-AFF     0.9761    0.9668    0.9714       211
+  PART-WHOLE     0.9407    0.9447    0.9427       235
+     PER-SOC     0.9861    0.9861    0.9861        72
+
+   micro avg     0.9429    0.9391    0.9410       985
+   macro avg     0.9474    0.9428    0.9451       985
+weighted avg     0.9429    0.9391    0.9410       985
+model_checkpoint_path: "model.ckpt-145000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9017    0.8966    0.8991       174
+         ART     0.9351    0.9231    0.9290        78
+     GEN-AFF     0.9296    0.9209    0.9252       215
+     ORG-AFF     0.9761    0.9668    0.9714       211
+  PART-WHOLE     0.9370    0.9489    0.9429       235
+     PER-SOC     0.9861    0.9861    0.9861        72
+
+   micro avg     0.9409    0.9381    0.9395       985
+   macro avg     0.9443    0.9404    0.9423       985
+weighted avg     0.9410    0.9381    0.9395       985
+model_checkpoint_path: "model.ckpt-146000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9017    0.8966    0.8991       174
+         ART     0.9351    0.9231    0.9290        78
+     GEN-AFF     0.9296    0.9209    0.9252       215
+     ORG-AFF     0.9761    0.9668    0.9714       211
+  PART-WHOLE     0.9367    0.9447    0.9407       235
+     PER-SOC     0.9861    0.9861    0.9861        72
+
+   micro avg     0.9409    0.9371    0.9390       985
+   macro avg     0.9442    0.9397    0.9419       985
+weighted avg     0.9409    0.9371    0.9390       985
+model_checkpoint_path: "model.ckpt-147000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9017    0.8966    0.8991       174
+         ART     0.9351    0.9231    0.9290        78
+     GEN-AFF     0.9252    0.9209    0.9231       215
+     ORG-AFF     0.9761    0.9668    0.9714       211
+  PART-WHOLE     0.9367    0.9447    0.9407       235
+     PER-SOC     0.9861    0.9861    0.9861        72
+
+   micro avg     0.9399    0.9371    0.9385       985
+   macro avg     0.9435    0.9397    0.9416       985
+weighted avg     0.9399    0.9371    0.9385       985
+model_checkpoint_path: "model.ckpt-148000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9017    0.8966    0.8991       174
+         ART     0.9351    0.9231    0.9290        78
+     GEN-AFF     0.9209    0.9209    0.9209       215
+     ORG-AFF     0.9761    0.9668    0.9714       211
+  PART-WHOLE     0.9364    0.9404    0.9384       235
+     PER-SOC     0.9861    0.9861    0.9861        72
+
+   micro avg     0.9389    0.9360    0.9375       985
+   macro avg     0.9427    0.9390    0.9408       985
+weighted avg     0.9389    0.9360    0.9375       985
+model_checkpoint_path: "model.ckpt-149000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9070    0.8966    0.9017       174
+         ART     0.9351    0.9231    0.9290        78
+     GEN-AFF     0.9296    0.9209    0.9252       215
+     ORG-AFF     0.9761    0.9668    0.9714       211
+  PART-WHOLE     0.9370    0.9489    0.9429       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9420    0.9391    0.9405       985
+   macro avg     0.9452    0.9427    0.9439       985
+weighted avg     0.9419    0.9391    0.9405       985
+model_checkpoint_path: "model.ckpt-150000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9017    0.8966    0.8991       174
+         ART     0.9351    0.9231    0.9290        78
+     GEN-AFF     0.9384    0.9209    0.9296       215
+     ORG-AFF     0.9761    0.9668    0.9714       211
+  PART-WHOLE     0.9372    0.9532    0.9451       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9430    0.9401    0.9415       985
+   macro avg     0.9458    0.9434    0.9446       985
+weighted avg     0.9430    0.9401    0.9415       985
+model_checkpoint_path: "model.ckpt-152000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9017    0.8966    0.8991       174
+         ART     0.9351    0.9231    0.9290        78
+     GEN-AFF     0.9296    0.9209    0.9252       215
+     ORG-AFF     0.9761    0.9668    0.9714       211
+  PART-WHOLE     0.9367    0.9447    0.9407       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9409    0.9381    0.9395       985
+   macro avg     0.9442    0.9420    0.9431       985
+weighted avg     0.9409    0.9381    0.9395       985
+model_checkpoint_path: "model.ckpt-153000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9123    0.8966    0.9043       174
+         ART     0.9351    0.9231    0.9290        78
+     GEN-AFF     0.9213    0.9256    0.9234       215
+     ORG-AFF     0.9761    0.9668    0.9714       211
+  PART-WHOLE     0.9364    0.9404    0.9384       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9409    0.9381    0.9395       985
+   macro avg     0.9446    0.9421    0.9433       985
+weighted avg     0.9409    0.9381    0.9395       985
+model_checkpoint_path: "model.ckpt-154000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9118    0.8908    0.9012       174
+         ART     0.9351    0.9231    0.9290        78
+     GEN-AFF     0.9171    0.9256    0.9213       215
+     ORG-AFF     0.9761    0.9668    0.9714       211
+  PART-WHOLE     0.9364    0.9404    0.9384       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9399    0.9371    0.9385       985
+   macro avg     0.9438    0.9411    0.9424       985
+weighted avg     0.9399    0.9371    0.9384       985
+model_checkpoint_path: "model.ckpt-155000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9118    0.8908    0.9012       174
+         ART     0.9351    0.9231    0.9290        78
+     GEN-AFF     0.9256    0.9256    0.9256       215
+     ORG-AFF     0.9761    0.9668    0.9714       211
+  PART-WHOLE     0.9370    0.9489    0.9429       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9420    0.9391    0.9405       985
+   macro avg     0.9453    0.9425    0.9439       985
+weighted avg     0.9419    0.9391    0.9404       985
+model_checkpoint_path: "model.ckpt-156000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9075    0.9023    0.9049       174
+         ART     0.9351    0.9231    0.9290        78
+     GEN-AFF     0.9327    0.9023    0.9173       215
+     ORG-AFF     0.9623    0.9668    0.9645       211
+  PART-WHOLE     0.9331    0.9489    0.9409       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9389    0.9360    0.9375       985
+   macro avg     0.9428    0.9406    0.9416       985
+weighted avg     0.9388    0.9360    0.9373       985
+model_checkpoint_path: "model.ckpt-158000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9075    0.9023    0.9049       174
+         ART     0.9351    0.9231    0.9290        78
+     GEN-AFF     0.9333    0.9116    0.9224       215
+     ORG-AFF     0.9668    0.9668    0.9668       211
+  PART-WHOLE     0.9370    0.9489    0.9429       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9409    0.9381    0.9395       985
+   macro avg     0.9443    0.9421    0.9432       985
+weighted avg     0.9408    0.9381    0.9394       985
+model_checkpoint_path: "model.ckpt-160000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9075    0.9023    0.9049       174
+         ART     0.9351    0.9231    0.9290        78
+     GEN-AFF     0.9289    0.9116    0.9202       215
+     ORG-AFF     0.9668    0.9668    0.9668       211
+  PART-WHOLE     0.9367    0.9447    0.9407       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9399    0.9371    0.9385       985
+   macro avg     0.9436    0.9414    0.9425       985
+weighted avg     0.9398    0.9371    0.9384       985
+model_checkpoint_path: "model.ckpt-161000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9070    0.8966    0.9017       174
+         ART     0.9351    0.9231    0.9290        78
+     GEN-AFF     0.9289    0.9116    0.9202       215
+     ORG-AFF     0.9668    0.9668    0.9668       211
+  PART-WHOLE     0.9370    0.9489    0.9429       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9399    0.9371    0.9385       985
+   macro avg     0.9435    0.9412    0.9423       985
+weighted avg     0.9398    0.9371    0.9384       985
+model_checkpoint_path: "model.ckpt-162000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9070    0.8966    0.9017       174
+         ART     0.9351    0.9231    0.9290        78
+     GEN-AFF     0.9289    0.9116    0.9202       215
+     ORG-AFF     0.9668    0.9668    0.9668       211
+  PART-WHOLE     0.9370    0.9489    0.9429       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9399    0.9371    0.9385       985
+   macro avg     0.9435    0.9412    0.9423       985
+weighted avg     0.9398    0.9371    0.9384       985
+model_checkpoint_path: "model.ckpt-163000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9080    0.9080    0.9080       174
+         ART     0.9474    0.9231    0.9351        78
+     GEN-AFF     0.9333    0.9116    0.9224       215
+     ORG-AFF     0.9668    0.9668    0.9668       211
+  PART-WHOLE     0.9370    0.9489    0.9429       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9420    0.9391    0.9405       985
+   macro avg     0.9465    0.9431    0.9447       985
+weighted avg     0.9419    0.9391    0.9404       985
+model_checkpoint_path: "model.ckpt-164000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9123    0.8966    0.9043       174
+         ART     0.9351    0.9231    0.9290        78
+     GEN-AFF     0.9296    0.9209    0.9252       215
+     ORG-AFF     0.9714    0.9668    0.9691       211
+  PART-WHOLE     0.9370    0.9489    0.9429       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9420    0.9391    0.9405       985
+   macro avg     0.9453    0.9427    0.9440       985
+weighted avg     0.9418    0.9391    0.9404       985
+model_checkpoint_path: "model.ckpt-165000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9123    0.8966    0.9043       174
+         ART     0.9351    0.9231    0.9290        78
+     GEN-AFF     0.9296    0.9209    0.9252       215
+     ORG-AFF     0.9714    0.9668    0.9691       211
+  PART-WHOLE     0.9370    0.9489    0.9429       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9420    0.9391    0.9405       985
+   macro avg     0.9453    0.9427    0.9440       985
+weighted avg     0.9418    0.9391    0.9404       985
+model_checkpoint_path: "model.ckpt-167000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9123    0.8966    0.9043       174
+         ART     0.9351    0.9231    0.9290        78
+     GEN-AFF     0.9340    0.9209    0.9274       215
+     ORG-AFF     0.9714    0.9668    0.9691       211
+  PART-WHOLE     0.9372    0.9532    0.9451       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9430    0.9401    0.9415       985
+   macro avg     0.9460    0.9434    0.9447       985
+weighted avg     0.9429    0.9401    0.9414       985
+model_checkpoint_path: "model.ckpt-168000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9123    0.8966    0.9043       174
+         ART     0.9359    0.9359    0.9359        78
+     GEN-AFF     0.9336    0.9163    0.9249       215
+     ORG-AFF     0.9668    0.9668    0.9668       211
+  PART-WHOLE     0.9412    0.9532    0.9471       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9430    0.9401    0.9415       985
+   macro avg     0.9460    0.9448    0.9454       985
+weighted avg     0.9428    0.9401    0.9414       985
+model_checkpoint_path: "model.ckpt-169000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9123    0.8966    0.9043       174
+         ART     0.9359    0.9359    0.9359        78
+     GEN-AFF     0.9336    0.9163    0.9249       215
+     ORG-AFF     0.9668    0.9668    0.9668       211
+  PART-WHOLE     0.9412    0.9532    0.9471       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9430    0.9401    0.9415       985
+   macro avg     0.9460    0.9448    0.9454       985
+weighted avg     0.9428    0.9401    0.9414       985
+model_checkpoint_path: "model.ckpt-170000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9123    0.8966    0.9043       174
+         ART     0.9359    0.9359    0.9359        78
+     GEN-AFF     0.9336    0.9163    0.9249       215
+     ORG-AFF     0.9668    0.9668    0.9668       211
+  PART-WHOLE     0.9412    0.9532    0.9471       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9430    0.9401    0.9415       985
+   macro avg     0.9460    0.9448    0.9454       985
+weighted avg     0.9428    0.9401    0.9414       985
+model_checkpoint_path: "model.ckpt-171000"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9123    0.8966    0.9043       174
+         ART     0.9359    0.9359    0.9359        78
+     GEN-AFF     0.9336    0.9163    0.9249       215
+     ORG-AFF     0.9668    0.9668    0.9668       211
+  PART-WHOLE     0.9409    0.9489    0.9449       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9429    0.9391    0.9410       985
+   macro avg     0.9460    0.9441    0.9450       985
+weighted avg     0.9427    0.9391    0.9409       985
+model_checkpoint_path: "model.ckpt-171814"
+
+              precision    recall  f1-score   support
+
+        PHYS     0.9123    0.8966    0.9043       174
+         ART     0.9359    0.9359    0.9359        78
+     GEN-AFF     0.9292    0.9163    0.9227       215
+     ORG-AFF     0.9668    0.9668    0.9668       211
+  PART-WHOLE     0.9409    0.9489    0.9449       235
+     PER-SOC     0.9863    1.0000    0.9931        72
+
+   micro avg     0.9420    0.9391    0.9405       985
+   macro avg     0.9452    0.9441    0.9446       985
+weighted avg     0.9418    0.9391    0.9404       985
