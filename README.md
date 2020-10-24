@@ -4,5 +4,7 @@ Sentence structural and semantic information are important for relation extracti
 The steps for running:
 
 1.Excuting "python main_train.py" will start a trainning programming.
+
 2.Excuting "python main_predict.py" will start a predicting programming.
+
   Or excuting "python Excute_main_predict.py" will start an automic programming for predicting under the newest model.
