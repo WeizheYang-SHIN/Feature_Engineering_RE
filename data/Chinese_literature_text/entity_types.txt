@@ -1,0 +1,4 @@
+Thing
+Organization
+Person
+Location
